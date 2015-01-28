@@ -80,7 +80,7 @@ body {
     }
   }
   &.title {
-    background: url('../../images/bgs/strangelove/phone-2.jpg') no-repeat 50% 50%;
+    background-color: #3C3237;
     background-size: cover;
   }
   &.game {
@@ -190,7 +190,7 @@ slide#title-slide {
   }
 
   article > div {
-    @include background-image(linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.6) 50%,rgba(0,0,0,0.35) 100%));
+    // @include background-image(linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.6) 50%,rgba(0,0,0,0.35) 100%));
     // background: -webkit-linear-gradient(bottom, transparent, rgba(0,0,0,0.8), transparent);
     // background-color: rgba(0,0,0,0.6);
     width: 100%;

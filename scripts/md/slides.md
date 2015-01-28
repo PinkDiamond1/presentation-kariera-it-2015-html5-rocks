@@ -83,13 +83,15 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-* prototypes
-* games
-* ads
-* architecture
-* education
-* data visualization
-* GPGPU
+<ul style="font-size: 45px; margin-bottom: 0;">
+  <li>prototypes
+  <li>games  
+  <li>GPGPU
+  <li>data visualization
+  <li>architecture
+  <li>education
+  <li>...
+</ul>
 
 ---
 
@@ -131,10 +133,12 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class:
 
-<h1 style="font-size: 100px; color: rgb(40, 40, 40);">generate</h1>
-<h1 style="font-size: 100px; color: rgb(40, 40, 40);">analyse</h1>
-<h1 style="font-size: 100px; color: rgb(40, 40, 40);">modify</h1>
-<h2 style="font-size: 120px; position: absolute; bottom: 150px; right: 25px">sound</h2>
+<div style="padding:100px 0 50px 0;">
+  <h1 style="font-size: 120px; color: rgb(40, 40, 40);">generate</h1>
+  <h1 style="font-size: 120px; color: rgb(40, 40, 40);">analyse</h1>
+  <h1 style="font-size: 120px; color: rgb(40, 40, 40);">modify</h1>
+</div>
+<h2 style="font-size: 180px; font-weight: 600; position: absolute; bottom: 150px; right: 25px">sound</h2>
 
 ---
 
@@ -162,31 +166,31 @@ content_class: flexbox vcenter
 class: nobackground
 content_class:
 
-<h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1>
+<h1 style="font-size: 140px; margin-top: 130px; color: rgb(40, 40, 40);">peer-to-peer</h1>
 
 ---
 
 class: nobackground
 content_class:
 
-<h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1>
-<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">audio</h1>
+<h1 style="font-size: 140px; margin-top: 130px; color: rgb(40, 40, 40);">peer-to-peer</h1>
+<h1 style="font-size: 200px; text-align: right; margin: 100px 50px 100px 150px;">audio</h1>
 
 ---
 
 class: nobackground
 content_class:
 
-<h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1>
-<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">video</h1>
+<h1 style="font-size: 140px; margin-top: 130px; color: rgb(40, 40, 40);">peer-to-peer</h1>
+<h1 style="font-size: 200px; text-align: right; margin: 100px 50px 100px 150px;">video</h1>
 
 ---
 
 class: nobackground
 content_class:
 
-<h1 style="font-size: 140px; margin-top: 100px;  color: rgb(40, 40, 40);">peer-to-peer</h1>
-<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">data</h1>
+<h1 style="font-size: 140px; margin-top: 130px;  color: rgb(40, 40, 40);">peer-to-peer</h1>
+<h1 style="font-size: 200px; text-align: right; margin: 100px 50px 100px 150px;">data</h1>
 
 ---
 
@@ -215,43 +219,43 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -340px;">browser</h2>
 <h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">browser</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 340px;">browser</h2>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -340px;">browser</h2>
 <h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">phone</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 340px;">phone</h2>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe data-src="http://webrtc-twilio.herokuapp.com/"></iframe>
+<iframe data-src="http://webrtc-twilio.herokuapp.com/" style="width: 90%"></iframe>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -340px;">browser</h2>
 <h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">phone</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 340px;">phone</h2>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">phone</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -340px;">phone</h2>
 <h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
-<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">browser</h2>
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 340px;">browser</h2>
 
 ---
 
@@ -279,15 +283,8 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h2 style="font-size: 200px; font-weight: 600;">data</h2>
-
----
-
-class: nobackground noheader
-content_class: flexbox vcenter
-
-<h2 style="font-size: 80px; font-weight: 600">low-latency networking</h2>
-<h2 style="font-size: 80px; font-weight: 600">file sharing</h2>
+<h2 style="font-size: 80px; font-weight: 600; line-height: 100px;">low-latency networking</h2>
+<h2 style="font-size: 80px; font-weight: 600; line-height: 100px;">file sharing</h2>
 
 ---
 
@@ -309,14 +306,15 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe width="853" height="480" src="//www.youtube.com/embed/mlOS2RwI0SE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" data-src="//www.youtube.com/embed/AUTFzaS1qW4?start=14&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen style="width: 90%;"></iframe>
 
 ---
 
 class: nobackground noheader
-content_class: flexbox vcenter
+content_class: flexbox vcenter centered
 
-<h2 style="font-size: 50px; font-weight: 600; line-height: 120px;"><a href="https://github.com/feross/webtorrent">WebTorrent</a></h2>
+
+<a href="https://github.com/feross/webtorrent"><img data-src="images/logos/webtorrent.png" style="width: 80%"></a>
 
 ---
 
@@ -328,30 +326,28 @@ content_class: flexbox vcenter
 ---
 
 class: nobackground noheader
-content_class: flexbox vcenter
+content_class:
 
-<h2 style="font-size: 120px; position: absolute; top: 150px; left: 25px">speech</h2>
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);">recognition</h1>
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);">synthesis</h1>
+<h2 style="font-size: 180px; font-weight: 600; position: absolute; bottom: 150px; right: 25px">speech</h2>
+
+<div style="padding:100px 0 50px 0;">
+  <h1 style="font-size: 120px; color: rgb(40, 40, 40);">recognition</h1>
+  <h1 style="font-size: 120px; color: rgb(40, 40, 40);">synthesis</h1>
+</div>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/R8ejjVAZweg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width: "90%"></iframe>
+<iframe width="640" height="480" data-src="//www.youtube.com/embed/R8ejjVAZweg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen style="width: 90%;"></iframe>
 
 ---
 
-body_class: strangelove-world
-class: nobackground fullviewport
+class: nobackground noheader purple fullviewport
 content_class: flexbox vcenter
 
-<div class="overlay centered">
-<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">thank you!</h2>
-</div>
-
-<span class="source">© Sony Pictures</span>
+<h2 style="font-size: 160px; font-weight: 600; line-height: 175px; color: white;">thank you!</h2>
 
 ---
 
@@ -365,29 +361,29 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);">NodeSchool</h1>
-<h2>nodeschool.io/silesia</h2>
+<img data-src="images/logos/nodeschool-silesia.png">
+<h2 style="padding-top: 40px"><a href="http://nodeschool.io/silesia">nodeschool.io/silesia</a></h2>
+
+---
+
+class: nobackground noheader fullviewport
+content_class: flexbox vcenter
+
+<img data-src="images/logos/meetjs.jpg" style="height: 442px">
+<h2 style="padding-top: 40px"><a href="http://meetjs.pl">meetjs.pl</a></h2>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);">meet.js</h1>
-<h2>meetjs.pl</h2>
+<img data-src="images/logos/srug.png" style="height: 442px">
+<h2 style="padding-top: 40px"><a href="https://srug.pl">srug.pl</a></h2>
 
 ---
 
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);">SRUG</h1>
-<h2>srug.pl</h2>
-
----
-
-class: nobackground noheader
-content_class: flexbox vcenter
-
-<h1 style="font-size: 160px; color: rgb(40, 40, 40);"><a href="https://slaskit.pl">Slask IT</a></h1>
-<h2>slaskit.pl</h2>
+<img data-src="images/logos/slaskit.png" style="height: 442px">
+<h2 style="padding-top: 40px"><a href="https://slaskit.pl">slaskit.pl</a></h2>
