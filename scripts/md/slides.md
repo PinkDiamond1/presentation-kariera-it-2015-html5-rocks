@@ -145,7 +145,7 @@ content_class:
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe data-src="http://chromium.googlecode.com/svn/trunk/samples/audio/shiny-drum-machine.html" frameborder="0" allowfullscreen style="max-width: 900px;"></iframe>
+<iframe data-src="https://chromium.googlecode.com/svn/trunk/samples/audio/shiny-drum-machine.html" frameborder="0" allowfullscreen style="max-width: 900px;"></iframe>
 
 ---
 
@@ -237,7 +237,7 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe data-src="http://webrtc-twilio.herokuapp.com/" style="width: 90%"></iframe>
+<iframe data-src="https://webrtc-twilio.herokuapp.com/" style="width: 90%"></iframe>
 
 ---
 
@@ -262,7 +262,7 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe data-src="http://www.frisb.com"></iframe>
+<h2 style="font-size: 120px; line-height: 160px; font-weight: 600;"><a href="http://www.frisb.com">frisb</a></h2>
 
 ---
 
