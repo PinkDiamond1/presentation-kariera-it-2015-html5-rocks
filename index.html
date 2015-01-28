@@ -1,0 +1,504 @@
+<!--
+Copyright Szymon Nowak <szimek@gmail.com> 2014
+
+Adapted from Eric Bidelman's <ebidel@gmail.com>
+https://github.com/ebidel/polymer-change slide deck
+and Google IO 2012 HTML5 Slide Template
+
+https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Rocks!, czyl co potrafi Twoja przegladarka?</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/app.css">
+  <link rel="stylesheet" media="all" href="theme/css/webrtc.css">
+
+  <link rel="stylesheet" media="all" href="theme/css/karierait2015.css">
+  <link rel="stylesheet" media="all" href="theme/css/slides.css">
+
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+
+  <script src="bower_components/platform/platform.js"></script>
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+  <link rel="import" href="bower_components/polymer/polymer.html">
+</head>
+<body>
+
+<main role="main">
+
+<slides class="layout-widescreen">
+
+<slide id="title-slide" class="nobackground" data-body-class="title">
+  <article class="flexbox vcenter">
+    <div><hgroup>
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+    </hgroup>
+    <p data-config-presenter><!-- populated from slide_config.json --></p></div>
+  </article>
+</slide>
+
+
+<slide id="who" class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img data-src="images/slides/me.jpg" style="width: 150px; height: 150px;">
+<h3>Szymon Nowak</h3>
+<h3><a href="https://twitter.com/szimek">@szimek</a></h3>
+<h3><a href="https://cowbell-labs.com">Cowbell Labs</a></h3></p></article>
+ 
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/thefacebook.png" style="width: 900px;"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/facebook.png" style="width: 900px;"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/logos/html5rocks-logo.png"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">WebGL</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 120px; position: absolute; top: 150px; left: 25px">based on</h2>
+
+<h1 style="font-size: 160px; color: rgb(40, 40, 40);">OpenGL ES</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);"><a href="http://threejs.org/examples">demos</a></h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe width="640" height="360" data-src="//www.youtube.com/embed/c2uNDlP4RiE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/logos/emscripten-logo.png"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 120px; color: rgb(40, 40, 40);">asm.js</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe width="640" height="360" data-src="//www.youtube.com/embed/bJi7BlXqcI4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><ul>
+<li>prototypes</li>
+<li>games</li>
+<li>ads</li>
+<li>architecture</li>
+<li>education</li>
+<li>data visualization</li>
+<li>GPGPU</li>
+</ul></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">WebVR</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/oculusrift.jpg" style="width: 900px;"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/googlecardboard.jpg" style="width: 900px;"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/oculus-rift-war-thunder-dk2.jpg" style="width: 900px;"></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">WebAudio</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article ><h1 style="font-size: 100px; color: rgb(40, 40, 40);">generate</h1>
+
+<h1 style="font-size: 100px; color: rgb(40, 40, 40);">analyse</h1>
+
+<h1 style="font-size: 100px; color: rgb(40, 40, 40);">modify</h1>
+
+<h2 style="font-size: 120px; position: absolute; bottom: 150px; right: 25px">sound</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe data-src="http://chromium.googlecode.com/svn/trunk/samples/audio/shiny-drum-machine.html" frameborder="0" allowfullscreen style="max-width: 900px;"></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><a href="https://www.soundtrap.com"><img data-src="images/slides/soundtrap.jpeg"></a></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">WebRTC</h1></article>
+  
+</slide>
+
+<slide  class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article ><h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1></article>
+ 
+</slide>
+
+<slide  class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article ><h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1>
+
+<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">audio</h1></article>
+ 
+</slide>
+
+<slide  class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article ><h1 style="font-size: 140px; margin-top: 100px; color: rgb(40, 40, 40);">peer-to-peer</h1>
+
+<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">video</h1></article>
+ 
+</slide>
+
+<slide  class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article ><h1 style="font-size: 140px; margin-top: 100px;  color: rgb(40, 40, 40);">peer-to-peer</h1>
+
+<h1 style="font-size: 200px; text-align: right; margin: 100px 150px;">data</h1></article>
+ 
+</slide>
+
+<slide  class="nobackground"   >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter centered"><h1 style="font-size: 120px; color: rgb(40, 40, 40);">plugin-free video calls</h1></article>
+ 
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter centered"><p><a href="https://appear.in"><img data-src="images/slides/appearin-page.png" style="height: 550px;"></a></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"  data-body-class="amazon-mayday" >
+  
+    <article class="flexbox vcenter"><p><span class="source">© Amazon</span></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+
+<h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
+
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">browser</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+
+<h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
+
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">phone</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe data-src="http://webrtc-twilio.herokuapp.com/"></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">browser</h2>
+
+<h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
+
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">phone</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: -440px;">phone</h2>
+
+<h2 style="font-size: 120px; line-height: 160px; font-weight: 600;">to</h2>
+
+<h2 style="font-size: 160px; line-height: 160px; font-weight: 600; margin-left: 440px;">browser</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe data-src="http://www.frisb.com"></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><a href="http://rapt.fm"><img data-src="images/slides/raptfm.png" style="height: 550px;"></a></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><a href="http://www.bemyeyes.org"><img data-src="images/slides/bemyeyes.png" style="height: 550px;"></a></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 200px; font-weight: 600;">data</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 80px; font-weight: 600">low-latency networking</h2>
+
+<h2 style="font-size: 80px; font-weight: 600">file sharing</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><p><img data-src="images/slides/xkcd-file-transfer.png" style="height: 80%;">
+<span class="source"><a href="http://xkcd.com/949/">http://xkcd.com/949/</a></span></p></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 120px; font-weight: 600;"><a href="https://www.sharedrop.io"><img data-src="images/slides/sharedrop.svg" style="height: 100px"></a></h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe width="853" height="480" src="//www.youtube.com/embed/mlOS2RwI0SE" frameborder="0" allowfullscreen></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 50px; font-weight: 600; line-height: 120px;"><a href="https://github.com/feross/webtorrent">WebTorrent</a></h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">WebSpeech</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h2 style="font-size: 120px; position: absolute; top: 150px; left: 25px">speech</h2>
+
+<h1 style="font-size: 160px; color: rgb(40, 40, 40);">recognition</h1>
+
+<h1 style="font-size: 160px; color: rgb(40, 40, 40);">synthesis</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><iframe width="640" height="480" src="//www.youtube.com/embed/R8ejjVAZweg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen width: "90%"></iframe></article>
+  
+</slide>
+
+<slide  class="nobackground fullviewport"  data-body-class="strangelove-world" >
+  
+    <hgroup>
+      <span>
+        
+        
+        
+        
+      </span>
+      <h2></h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><div class="overlay centered">
+<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">thank you!</h2>
+</div>
+
+<p><span class="source">© Sony Pictures</span></p></article>
+ 
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">meetups!</h1></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">NodeSchool</h1>
+
+<h2>nodeschool.io/silesia</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">meet.js</h1>
+
+<h2>meetjs.pl</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);">SRUG</h1>
+
+<h2>srug.pl</h2></article>
+  
+</slide>
+
+<slide  class="nobackground noheader"   >
+  
+    <article class="flexbox vcenter"><h1 style="font-size: 160px; color: rgb(40, 40, 40);"><a href="https://slaskit.pl">Slask IT</a></h1>
+
+<h2>slaskit.pl</h2></article>
+  
+</slide>
+
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</main>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39365077-6', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

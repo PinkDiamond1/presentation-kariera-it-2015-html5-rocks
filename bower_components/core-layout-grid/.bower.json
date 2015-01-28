@@ -1,0 +1,17 @@
+{
+  "name": "core-layout-grid",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "homepage": "https://github.com/Polymer/core-layout-grid",
+  "_release": "e658040572",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e658040572b99d81eb99af49f9a28957df79f9dc"
+  },
+  "_source": "git://github.com/Polymer/core-layout-grid.git",
+  "_target": "master",
+  "_originalSource": "Polymer/core-layout-grid"
+}

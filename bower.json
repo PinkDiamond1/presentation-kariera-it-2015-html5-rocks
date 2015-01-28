@@ -1,0 +1,21 @@
+{
+  "name": "kariera-it-15-html5-rocks",
+  "version": "0.0.1",
+  "authors": [
+    "Szymon Nowak <szimek@gmail.com>"
+  ],
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#master",
+    "core-animated-pages": "Polymer/core-animated-pages#master",
+    "core-style": "Polymer/core-style#master"
+  }
+}

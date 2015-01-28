@@ -1,0 +1,21 @@
+{
+  "name": "core-dropdown",
+  "private": false,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "core-icon": "Polymer/core-icon#master",
+    "core-icons": "Polymer/core-icons#master",
+    "core-item": "Polymer/core-item#master",
+    "core-popup-menu": "Polymer/core-popup-menu#master"
+  },
+  "homepage": "https://github.com/Polymer/core-dropdown",
+  "_release": "5722218f19",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5722218f197ee586ca71b88e67d86b76916a44cb"
+  },
+  "_source": "git://github.com/Polymer/core-dropdown.git",
+  "_target": "master",
+  "_originalSource": "Polymer/core-dropdown"
+}

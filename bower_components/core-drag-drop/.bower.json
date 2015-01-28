@@ -1,0 +1,13 @@
+{
+  "name": "core-drag-drop",
+  "homepage": "https://github.com/Polymer/core-drag-drop",
+  "_release": "acf2c4ddef",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "acf2c4ddef072ce44b9ed7501e2c42f3b615db56"
+  },
+  "_source": "git://github.com/Polymer/core-drag-drop.git",
+  "_target": "master",
+  "_originalSource": "Polymer/core-drag-drop"
+}
