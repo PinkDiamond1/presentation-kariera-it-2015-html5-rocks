@@ -76,7 +76,7 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe width="640" height="360" data-src="//www.youtube.com/embed/bJi7BlXqcI4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/rf045VYP3z4?start=18&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -139,6 +139,13 @@ content_class:
   <h1 style="font-size: 120px; color: rgb(40, 40, 40);">modify</h1>
 </div>
 <h2 style="font-size: 180px; font-weight: 600; position: absolute; bottom: 150px; right: 25px">sound</h2>
+
+---
+
+class: nobackground noheader
+content_class: flexbox vcenter
+
+<img data-src="images/slides/webaudio-nodes-2.png">
 
 ---
 
