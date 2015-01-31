@@ -244,7 +244,7 @@ content_class: flexbox vcenter
 class: nobackground noheader
 content_class: flexbox vcenter
 
-<iframe data-src="https://webrtc-twilio.herokuapp.com/" style="width: 90%"></iframe>
+<a href="https://github.com/szimek/webrtc-twilio-client"><img src="images/slides/webrtc-twilio-client.png"></a>
 
 ---
 
